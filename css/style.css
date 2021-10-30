@@ -296,11 +296,11 @@ body {
     .menu-button-active {
         height: 0;
     }
-    .menu-button-active:before {
+    .menu-button-active:after {
         transform: rotate(45deg);
         margin-top: 0;
     }
-    .menu-button-active:after {
+    .menu-button-active:before {
         transform: rotate(-45deg);
         margin-top: 0;
     }
